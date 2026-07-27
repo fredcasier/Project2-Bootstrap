@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>GepaVu</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo.ico" />
+    <link rel="stylesheet" type="text/css" href="../main.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2>GepaVu</h2>
+            <img src="../img/logo.ico" alt="logo">
+            <ul>
+                <li class="menu"><a href="../home.html">Home</a></li>
+
+                <li class="menu">
+                    <a href="../about/about.html">About Us</a>
+                    <ul>
+                        <li class="submenu"><a href="../team/team.html">Team</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu">
+                    <a href="../store/store.html">Store</a>
+                    <ul>
+                        <li class="submenu"><a href="../store/reading_glasses/reading_glasses.html">Reading glasses</a></li>
+                        <li class="submenu"><a href="../store/sunglasses/sunglasses.html">Sunglasses</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu">
+                    <a href="../news/news.html">News</a>
+                    <ul>
+                        <li class="submenu"><a href="../events/events.html">Events</a></li>
+                    </ul>
+                </li>
+
+                <li class="submenu"><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="post" action="https://hnitest.go.yj.fr">
+            <h2>Contact us</h2>
+            Last name<br />
+            <input type="text" name="lastname" placeholder="First name..." required/><br />
+            First name<br />
+            <input type="text" name="firstname" placeholder="Last name..." required/><br />
+            Email address<br />
+            <input type="email" name="mail" placeholder="example@dot.com" required/><br />
+            Request<br />
+            <textarea name="request" placeholder="Ask us anything" required></textarea><br />
+            Country<br />
+            <select name="country">
+                <option>France</option>
+                <option>Germany</option>
+                <option>United Kingdom</option>
+                <option>Netherland</option>
+                <option>Spain</option>
+                <option>Italy</option>
+                <option>Listenbourg</option>
+            </select>
+
+            <input class="submit-btn" type="submit" value="Send message"/>
+        </form>
+    </main>
+</body>
+
+</html>

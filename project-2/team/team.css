@@ -1,0 +1,29 @@
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.member {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px black;
+    padding-bottom: 15px;
+}
+
+
+.member img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.member h3 {
+    margin: 15px 15px 8px 15px;
+    font-size: 18px;
+}
+
+.member p {
+    margin: 0 15px 15px 15px;
+}
