@@ -5,6 +5,7 @@
     <link rel="icon" type="image/x-icon" href="img/logo.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="home.css" />
     <style>
         @media (min-width: 992px) {
             .navbar .dropdown:hover .dropdown-menu {
@@ -22,7 +23,10 @@
                     <img src="img/logo.ico" alt="logo" width="32" height="32" class="rounded-circle">
                     <span>GepaVu</span>
                 </a>
-                <div class="collapse navbar-collapse">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMain">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="home.html">Home</a>
@@ -55,10 +59,14 @@
         </nav>
     </header>
 
-    <main>
-        <h1>GepaVu</h1>
-        <p>Selling glasses since 2020 around the world.</p>
-        <img src="img/Shop_front.jpg" alt="GepaVu shop front">
+    <main class="container py-4 min-vh-100">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 text-center">
+                    <h1 class="display-4 fw-bold mb-3">GepaVu</h1>
+                    <p class="lead mb-4">Selling glasses since 2020 around the world.</p>
+                    <img src="img/Shop_front.jpg" alt="GepaVu shop front" class="img-fluid rounded-4 shadow" >
+            </div>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
