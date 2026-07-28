@@ -54,30 +54,47 @@
             </div>
         </nav>
     </header>
-    <main>
-        <form method="post" action="https://hnitest.go.yj.fr">
-            <h2>Contact us</h2>
-            Last name<br />
-            <input type="text" name="lastname" placeholder="First name..." required/><br />
-            First name<br />
-            <input type="text" name="firstname" placeholder="Last name..." required/><br />
-            Email address<br />
-            <input type="email" name="mail" placeholder="example@dot.com" required/><br />
-            Request<br />
-            <textarea name="request" placeholder="Ask us anything" required></textarea><br />
-            Country<br />
-            <select name="country">
-                <option>France</option>
-                <option>Germany</option>
-                <option>United Kingdom</option>
-                <option>Netherland</option>
-                <option>Spain</option>
-                <option>Italy</option>
-                <option>Listenbourg</option>
-            </select>
-
-            <input class="submit-btn" type="submit" value="Send message"/>
-        </form>
+    <main class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="card-title mb-4">Contact us</h2>
+                        <form method="post" action="https://hnitest.go.yj.fr" class="contact-form">
+                            <div class="mb-3">
+                                <label for="lastname" class="form-label">Last name</label>
+                                <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last name..." required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="firstname" class="form-label">First name</label>
+                                <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First name..." required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="mail" class="form-label">Email address</label>
+                                <input type="email" id="mail" name="mail" class="form-control" placeholder="example@dot.com" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="request" class="form-label">Request</label>
+                                <textarea id="request" name="request" class="form-control" placeholder="Ask us anything" required></textarea>
+                            </div>
+                            <div class="mb-4">
+                                <label for="country" class="form-label">Country</label>
+                                <select id="country" name="country" class="form-select">
+                                    <option>France</option>
+                                    <option>Germany</option>
+                                    <option>United Kingdom</option>
+                                    <option>Netherland</option>
+                                    <option>Spain</option>
+                                    <option>Italy</option>
+                                    <option>Listenbourg</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
