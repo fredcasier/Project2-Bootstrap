@@ -1,89 +1,16 @@
 body {
     margin: 0;
     background-color: cadetblue;
-    width: 960px;
+    
 }
 
 main {
     background-color: cadetblue;
-    margin-left: 300px;
-    padding: 20px;
-    color:white
+    color:white;
+    width: 960px;
 }
 
-main h2 {
-    margin-bottom: 10px;
-    font-size: 36px;
-}
-
-header {
-    width: 220px;
-    height: 100%;
-    position: fixed;
-    background-color: darkcyan;
-    padding: 20px 10px;
-    box-sizing: border-box;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-nav img {
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    box-shadow: 0 3px 8px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-
-}
-
-nav h2 {
-    font-family: 'Brush Script MT';
-    font-size: 32px;
-    margin: 0;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-.menu {
-    position: relative;
-}
-
-.menu a, .submenu a {
+.dropdown:hover .dropdown-menu {
     display: block;
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-size: 24;
-}
-
-.menu ul {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
-    list-style-type: none;
-    background-color: darkcyan;
-}
-
-.menu:hover ul {
-    display: block;
-}
-
-nav li:hover {
-    background-color: teal;
-}
-
-nav li a:hover{
-    color: white;
+    margin-top: 0;
 }
