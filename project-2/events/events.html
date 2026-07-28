@@ -5,6 +5,7 @@
     <link rel="icon" type="image/x-icon" href="../img/logo.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../main.css" />
+    <link rel="stylesheet" type="text/css" href="events.css" />
     <style>
         @media (min-width: 992px) {
             .navbar .dropdown:hover .dropdown-menu {
@@ -54,34 +55,49 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h2>Events</h2>
-        <section class="event-tab">
-            <article class="event-card">
-                <div class="event-media">
-                    <img src="img/event-sales.jpg" alt="Sales up to 70%">
-                </div>
-                <div class="event-content">
-                    <h3>Summer sales</h3>
-                    <p>It is the summer sales at GepaVu! Enjoy up to 70% off the second pair and up to 50% off any repair.</p>
-                    <p class="end-date">Ends on 31/08/2026</p>
-                </div>
-            </article>
-            <article class="event-card">
-                <div class="event-media">
-                    <img src="img/event-contest.jpg" alt="New Lorem Ipsum book.">
-                </div>
-                <div class="event-content">
-                    <h3>Writing contest</h3>
-                    <p>We have partnered with Lorem Ipsum Co. to host a writing contest in celebration of their new book. Every contestant whose submission has been verified will have the chance to receive 50% off their next pair of glasses purchased at our store.</p>
-                    <p>Register now on their website.</p>
-                    <p class="end-date">Ends on 20/08/2026</p>
+    <main class="container py-5">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">Events</h2>
+        </div>
+
+        <section class="row g-4">
+            <article class="col-12">
+                <div class="card shadow-sm border-0 rounded-4 overflow-hidden">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-12 col-md-4">
+                            <img src="img/event-sales.jpg" alt="Sales up to 70%" class="w-100 h-100 object-fit-cover rounded-start">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="card-body">
+                                <h3 class="h4">Summer sales</h3>
+                                <p class="mb-2">It is the summer sales at GepaVu! Enjoy up to 70% off the second pair and up to 50% off any repair.</p>
+                                <p class="text-muted mb-0">Ends on <strong>31/08/2026</strong></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
 
+            <article class="col-12">
+                <div class="card shadow-sm border-0 rounded-4 overflow-hidden">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-12 col-md-4">
+                            <img src="img/event-contest.jpg" alt="New Lorem Ipsum book." class="w-100 h-100 object-fit-cover rounded-start">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="card-body">
+                                <h3 class="h4">Writing contest</h3>
+                                <p class="mb-2">We have partnered with Lorem Ipsum Co. to host a writing contest in celebration of their new book. Every contestant whose submission has been verified will have the chance to receive 50% off their next pair of glasses purchased at our store.</p>
+                                <p class="mb-2">Register now on their website.</p>
+                                <p class="text-muted mb-0">Ends on <strong>20/08/2026</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
