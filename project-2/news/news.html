@@ -5,6 +5,7 @@
     <link rel="icon" type="image/x-icon" href="../img/logo.ico" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../main.css" />
+    <link rel="stylesheet" type="text/css" href="news.css" />
     <style>
         @media (min-width: 992px) {
             .navbar .dropdown:hover .dropdown-menu {
@@ -54,31 +55,44 @@
             </div>
         </nav>
     </header>
-    <main>
-        <h2>News</h2>
-        <section class="news-tab">
-            <article class="news-card">
-                <div class="news-media">
-                    <img src="img/news-silly-glasses.jpg" alt="Silly glasses now for in store.">
-                </div>
-                <div class="news-content">
-                    <h3>Silly glasses now for sales</h3>
-                    <p>Gepavu now sell silly glasses. Available only in our shop. As always, we offer a service to adjust them to your sight.</p>
-                    <p class="news-date">Posted on 24/07/2026</p>
-                </div>
-            </article>
-            <article class="news-card">
-                <div class="news-media">
-                    <img src="img/news-lorem-ipsum.jpg" alt="New Lorem Ipsum book.">
-                </div>
-                <div class="news-content">
-                    <h3>New Lorem Ipsum available</h3>
-                    <p>Lorem Ipsum co. just realised a new Lorem Ipsum book to their collection. It will be offer with each new pair of glasses bought at our store. Here is a short excerpt of the beginning of the book</p>
-                    <p class="excerpt">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus convallis nisi sed tristique. Curabitur blandit, magna et rhoncus pretium, massa sapien fringilla sapien, sit amet aliquet libero augue sit amet odio."</p>
-                    <p class="news-date">Posted on 20/07/2026</p>
+    <main class="container py-5">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">News</h2>
+        </div>
+        <section class="row g-4">
+            <article class="col-12">
+                <div class="card shadow-sm border-0 rounded-4 overflow-hidden">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-12 col-md-4">
+                            <img src="img/news-silly-glasses.jpg" alt="Silly glasses now for in store." class="w-100 h-100 object-fit-cover rounded-start">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="card-body">
+                                <h3 class="h4">Silly glasses now for sales</h3>
+                                <p>Gepavu now sell silly glasses. Available only in our shop. As always, we offer a service to adjust them to your sight.</p>
+                                <p class="text-muted mb-0">Posted on 24/07/2026</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
-
+            <article class="col-12">
+                <div class="card shadow-sm border-0 rounded-4 overflow-hidden">
+                    <div class="row g-0 align-items-center">
+                        <div class="col-12 col-md-4">
+                            <img src="img/news-lorem-ipsum.jpg" alt="New Lorem Ipsum book." class="w-100 h-100 object-fit-cover rounded-start">
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="card-body">
+                                <h3 class="h4">New Lorem Ipsum available</h3>
+                                <p>Lorem Ipsum co. just realised a new Lorem Ipsum book to their collection. It will be offer with each new pair of glasses bought at our store. Here is a short excerpt of the beginning of the book</p>
+                                <p class="fst-italic text-secondary">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus convallis nisi sed tristique. Curabitur blandit, magna et rhoncus pretium, massa sapien fringilla sapien, sit amet aliquet libero augue sit amet odio."</p>
+                                <p class="text-muted mb-0">Posted on 20/07/2026</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
